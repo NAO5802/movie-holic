@@ -1,0 +1,10 @@
+<!-- application.html.erb in Head tag below turbolinks -->
+= javascript_pack_tag 'application' 
+
+.header
+  .header__content
+    .header__content--title
+      =link_to root_path, class: "header__content--title" do
+        %h1 MOVIE HOLIC
+    .header__content--menu
+      = react_component("Menu") 

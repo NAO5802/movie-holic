@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  &__content{
+    line-height: 50px;
+    &--title{
+      padding-left: 15px;
+      float: left;
+      text-decoration: none;
+      color: limegreen;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    &--menu{
+      padding-right: 15px;
+      float: right;
+      color: limegreen;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}

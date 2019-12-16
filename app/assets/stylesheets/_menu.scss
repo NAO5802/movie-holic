@@ -1,0 +1,18 @@
+
+.menu-icon{
+}
+
+.menu-card{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 200px;
+  height: 100vh;
+  text-align: right;
+
+  &__head{
+    font-weight: bold;
+  }
+  &__list{
+    font-size: 15px;
+    color: gray;
+  }
+}
