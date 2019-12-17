@@ -1,3 +1,55 @@
-// Place all the styles related to the users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+  box-sizing: border-box;
+}
+
+.user-field {
+  color: white;
+  h2{
+    color: limegreen; 
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__contents{
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 50px;
+    h3 {
+      margin-top: 50px;
+      color: limegreen; 
+      font-size: 20px;
+      font-weight: 600;  
+    }
+
+  }
+}
+
+.field {
+  margin-top: 10px;
+  input {
+    width: 500px;
+    height: 40px;
+  }
+}
+
+.actions {
+  margin-top: 20px;
+  input {
+    @include btn(limegreen, white);
+    width: 100px;
+    font-weight: 600;
+  }
+}
+
+.link-text{
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.delete-btn {
+  margin-top: 15px;
+  @include btn(gray, white);
+}
+

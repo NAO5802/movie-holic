@@ -11,9 +11,8 @@ class MenuContents extends React.Component {
         <div class="menu-card">
           <h1 class="menu-card__head">MENU</h1>
           <ul class="menu-card__list">
-            <li>お気に入り</li>
-            <li>タイムライン</li>
-            <li>ユーザー設定</li>
+            <li><a href="/users/edit" >ユーザー情報編集</a></li>
+            <li><a href="/users/sign_out" data-method="delete" >ログアウト</a></li>
           </ul>
         </div>
         
