@@ -1,13 +1,17 @@
 .movie-card {
   display: inline-block;
-  width: 22%;
   margin-right: 24px;
+  width: 250px;
+  height: 360px;
   text-align: center;
   cursor: pointer;
 }
 
 .movie-item {
-  padding: 48px 0 64px;
+  margin: 48px 0 64px;
+  &:hover{
+    border: solid 1px lemonchiffon;
+  }
 }
 
 .movie-item img {

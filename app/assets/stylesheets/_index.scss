@@ -35,15 +35,18 @@
 }
 
 .low-contents{
-  padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 50px 0 80px;
   &__elements{
     width: 80%;
     margin: 0 auto;
+    position: relative;
       &--caption{
-        color: limegreen;
-        font-size: 25px;  
+        color: gray;
+        font-size: 23px;  
+    }
+    &--movies{
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 }

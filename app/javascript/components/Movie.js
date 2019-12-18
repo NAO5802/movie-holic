@@ -7,13 +7,7 @@ class Movie extends React.Component {
   constructor(props) {
     super(props);
     this.state={isModalOpen: false};
-    this.playerOn = this.playerOn.bind(this);
   }
-
-  playerOn(){
-    this.props.setPlayer(true)
-  }
-
 
 
   handleClickMovie(){
@@ -33,12 +27,11 @@ class Movie extends React.Component {
           <div className='modal-inner'>
             <div className='modal-header'></div>
             <div className='modal-introduction'>
-              <h2>{this.props.name}</h2>
+              <h2>{this.props.title}</h2>
               <p>{this.props.summary}</p>
             </div>
             <button 
               className='modal-move-btn'
-              onClick={this.playerOn}
               // onClick={() => {this.handleClickClose();}}
             >
               この映画をみる
@@ -63,12 +56,9 @@ class Movie extends React.Component {
         <div className='movie-item'
             onClick={() => {this.handleClickMovie()}}
         >
-
-          <img src={this.props.image} />
+        <img src={this.props.image} />
         </div>
-
         {modal}
-        
       </div>
       </React.Fragment>
     );

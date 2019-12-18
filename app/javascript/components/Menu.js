@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import MenuContents from "./MenuContents"
 
+
 class Menu extends React.Component {
 
     constructor(props) {
@@ -29,19 +30,18 @@ class Menu extends React.Component {
 
 
   
-  
     return (
       <React.Fragment>
-            <div class="menu-icon">
-              <i class="fa fa-cog"
-                  onMouseEnter={() => {this.handleMouseEnter()}} 
-              ></i>
-            </div>
-            <div class="menu-open"
-                  onMouseLeave={() => {this.handleMouseLeave()}} 
-            >
-            {menu}
-            </div>
+              <div class="menu-icon">
+                <i class="fa fa-bars"
+                    onMouseEnter={() => {this.handleMouseEnter()}} 
+                    ></i>
+              </div>
+              <div class="menu-open"
+                    onMouseLeave={() => {this.handleMouseLeave()}} 
+                    >
+              {menu}
+              </div>
             
 
 

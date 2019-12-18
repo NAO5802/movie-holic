@@ -7,5 +7,7 @@
       =link_to root_path, class: "header__content--title" do
         %h1 MOVIE HOLIC
     - if user_signed_in?
+      .header__content--user
+        = current_user.name
       .header__content--menu
         = react_component("Menu") 

@@ -1,9 +1,8 @@
 class MoviesController < ApplicationController
   before_action :redirect_to_signin
-  # , except: :index
 
   def index
-
+    @movies = Movie.order('RAND()').limit(8)
   end
 
   def show

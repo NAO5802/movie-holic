@@ -18,6 +18,12 @@
       font-weight: bold;
       font-size: 25px;
     }
+    &--user{
+      color: limegreen;
+      position: absolute;
+      top: 0;
+      right: 60px;
+    }
     &--menu{
       padding-right: 15px;
       float: right;
