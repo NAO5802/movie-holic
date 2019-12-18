@@ -1,10 +1,9 @@
-<!-- application.html.erb in Head tag below turbolinks -->
-= javascript_pack_tag 'application' 
-
 .low-contents
   .low-contents__elements
     %h1.low-contents__elements--caption Let's choose movie!
     .low-contents__elements--movies
       - @movies.each do |m|
         = react_component("Movie", {id: m.id, title: m.title, summary: m.summary, image: m.movie_image})
-  
+
+- if current_user.try(:admin?)
+  = link_to '管理者専用ページ', rails_admin_path, style: "color: white"

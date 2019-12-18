@@ -1,1 +1,3 @@
-動画個別ページ
+.show-wrapper
+  .show-top
+    = react_component("Player", {title: @movie.title, url: @movie.movie_url, sumarry: @movie.summary})

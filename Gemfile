@@ -78,3 +78,6 @@ gem "font-awesome-rails"
 gem 'font-awesome-sass'
 gem 'webpacker'
 gem 'react-rails'
+gem 'rails_admin', '~> 2.0'
+gem 'cancancan'
+

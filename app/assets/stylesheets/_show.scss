@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.show-wrapper{
+  padding: 50px 0 80px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.show-top{
+  &__movie{ 
+    max-width: 1050px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  &__title{
+    padding-top: 10px;
+    color: white;
+    font-size: 24px;
+  }
+  &__sumarry{
+    padding-top: 15px;
+    max-width: 900px;
+    color: white;
+    font-size: 15px;
+    line-height: 1.8em;
+  }
+}

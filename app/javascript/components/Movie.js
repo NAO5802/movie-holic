@@ -32,7 +32,7 @@ class Movie extends React.Component {
             </div>
             <button 
               className='modal-move-btn'
-              // onClick={() => {this.handleClickClose();}}
+              onClick={() => {location.href=`/movies/${this.props.id}`}}
             >
               この映画をみる
             </button>

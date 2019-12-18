@@ -10,29 +10,6 @@
   min-width: 100vw;
 }
 
-.top-contents{
-  padding-top: 30px;
-  &__elements{
-    width: 80%;
-    margin: 0 auto;
-    &--caption{
-      color: limegreen;
-      font-size: 25px;  
-    }
-  }
-
-  &__movie{
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  &__sumarry{
-    padding-top: 20px;
-    color: white;
-    font-size: 15px;
-    margin: 0 auto;
-  }
-}
 
 .low-contents{
   padding: 50px 0 80px;

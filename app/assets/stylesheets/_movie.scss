@@ -48,20 +48,23 @@
   border-radius: 8px 8px 0 0;
 }
 
-.modal-introduction h2 {
-  font-size: 25px;
-  font-weight: bold;
+.modal-introduction {
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 38px;
+  }
+  p{
+    color: #5876a3;
+    width: 384px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    margin: 36px auto 40px;  
+  }
 }
 
 
-.modal-introduction p {
-  color: #5876a3;
-  width: 384px;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: left;
-  margin: 36px auto 40px;
-}
 
 .modal-move-btn {
   @include btn(limegreen, white)
