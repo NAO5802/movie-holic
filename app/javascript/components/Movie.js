@@ -50,16 +50,15 @@ class Movie extends React.Component {
 
     return (
       <React.Fragment>
-
-
         <div className='movie-card'>
-        <div className='movie-item'
+          <div className='movie-item'
+            
             onClick={() => {this.handleClickMovie()}}
-        >
-        <img src={this.props.image} />
+            >
+          <img src={this.props.image} />
+          </div>
+          {modal}
         </div>
-        {modal}
-      </div>
       </React.Fragment>
     );
   }

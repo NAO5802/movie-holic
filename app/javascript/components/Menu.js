@@ -28,8 +28,6 @@ class Menu extends React.Component {
       menu = (< MenuContents/>);
     }
 
-
-  
     return (
       <React.Fragment>
               <div class="menu-icon">

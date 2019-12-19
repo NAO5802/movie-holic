@@ -12,16 +12,18 @@
 
 
 .low-contents{
-  padding: 50px 0 80px;
+  padding: 17px 0 50px;
   &__elements{
-    width: 80%;
     margin: 0 auto;
     position: relative;
+    padding: 0 30px;
       &--caption{
-        color: gray;
+        color: limegreen;
+        font-weight: 400;
         font-size: 23px;  
     }
     &--movies{
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -29,4 +31,28 @@
 }
 
 
+// **slide**
 
+
+
+.main-image {
+  width: 100%;
+  height: 525px;
+}
+
+.sub-slide {
+  outline: none;
+}
+
+.sub-image {
+  max-width: 180px;
+  width: 100%;
+  height: 100px;
+  margin: 10px auto;
+  opacity: 0.5;
+}
+
+.slick-current .sub-image{
+  opacity: 1;
+  border: limegreen solid 2px;
+}
