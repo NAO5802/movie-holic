@@ -26,10 +26,19 @@
 
 .field {
   margin-top: 10px;
+  label {
+    vertical-align: middle;
+  }
   input {
     width: 500px;
     height: 40px;
   }
+}
+
+#user_remember_me {
+  width: 20px;
+  vertical-align: middle;
+
 }
 
 .actions {
