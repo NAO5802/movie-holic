@@ -55,7 +55,7 @@ class Movie extends React.Component {
             
             onClick={() => {this.handleClickMovie()}}
             >
-          <img src={this.props.image} />
+          <img src={this.props.image.url} />
           </div>
           {modal}
         </div>

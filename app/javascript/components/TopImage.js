@@ -47,11 +47,11 @@ class TopImage extends React.Component {
     };
 
     const mains = this.props.images.map((image) => {
-      return <div><img src={image} class="main-image"/></div>
+      return <div><img src={image.url} className="main-image" /></div>
     });
 
     const subs = this.props.images.map((image) => {
-      return <div class="sub-slide"><img src={image} class="sub-image"/></div>
+      return <div className="sub-slide"><img src={image.url} className="sub-image"/></div>
     });
 
 

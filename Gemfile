@@ -89,4 +89,7 @@ gem 'webpacker'
 gem 'react-rails'
 gem 'rails_admin', '~> 2.0'
 gem 'cancancan'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'faker'
 

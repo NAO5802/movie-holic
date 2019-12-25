@@ -1,3 +1,4 @@
 .show-wrapper
   .show-top
-    = react_component("Player", {title: @movie.title, url: @movie.movie_url, sumarry: @movie.summary})
+    = react_component("Player", {id: @movie.id, title: @movie.title, video: @movie.movie_url, sumarry: @movie.summary})
+

@@ -30,12 +30,12 @@ class Menu extends React.Component {
 
     return (
       <React.Fragment>
-              <div class="menu-icon">
-                <i class="fa fa-bars"
+              <div className="menu-icon">
+                <i className="fa fa-bars"
                     onMouseEnter={() => {this.handleMouseEnter()}} 
                     ></i>
               </div>
-              <div class="menu-open"
+              <div className="menu-open"
                     onMouseLeave={() => {this.handleMouseLeave()}} 
                     >
               {menu}
