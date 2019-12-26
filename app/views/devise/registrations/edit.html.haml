@@ -25,7 +25,7 @@
         - if @minimum_password_length
           %br/
           %em
-            = "最大#{@minimum_password_length}文字"
+            = "#{@minimum_password_length}文字以上"
             
       .field
         = f.label :password_confirmation
