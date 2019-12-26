@@ -92,4 +92,6 @@ gem 'cancancan'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'faker'
+gem 'fog-aws'
+
 
